@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 1c01d72529a75184dbcceb98f670af2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3383763649425985922
+    second: Monster_Walk_0
+  - first:
+      213: -6464741006201169574
+    second: Monster_Walk_1
+  - first:
+      213: -2807313825708502296
+    second: Monster_Walk_2
+  - first:
+      213: -7820227852858422533
+    second: Monster_Walk_3
+  - first:
+      213: 2204547583437138552
+    second: Monster_Walk_4
+  - first:
+      213: 3094946742407761039
+    second: Monster_Walk_5
+  - first:
+      213: 5383627677889310006
+    second: Monster_Walk_6
+  - first:
+      213: -891030147859669196
+    second: Monster_Walk_7
+  - first:
+      213: -3924733194429058043
+    second: Monster_Walk_8
+  - first:
+      213: 7832863026895864179
+    second: Monster_Walk_9
+  - first:
+      213: 5869504437011554151
+    second: Monster_Walk_10
+  - first:
+      213: 4075050323917316030
+    second: Monster_Walk_11
+  - first:
+      213: 8392740380969194678
+    second: Monster_Walk_12
+  - first:
+      213: 8699067225237962510
+    second: Monster_Walk_13
+  - first:
+      213: -9043910136121713613
+    second: Monster_Walk_14
+  - first:
+      213: -2264333129840368918
+    second: Monster_Walk_15
+  - first:
+      213: -7691381533265424887
+    second: Monster_Walk_16
+  - first:
+      213: 8486442114629058730
+    second: Monster_Walk_17
+  - first:
+      213: -5100459272754617825
+    second: Monster_Walk_18
+  - first:
+      213: 4227718967988274992
+    second: Monster_Walk_19
+  - first:
+      213: 447640592136307397
+    second: Monster_Walk_20
+  - first:
+      213: -4793695921810996277
+    second: Monster_Walk_21
+  - first:
+      213: 2180204082256037226
+    second: Monster_Walk_22
+  - first:
+      213: 1055255031493111781
+    second: Monster_Walk_23
+  - first:
+      213: 2520934858203214947
+    second: Monster_Walk_24
+  - first:
+      213: 2432417799273343819
+    second: Monster_Walk_25
+  - first:
+      213: -4797727445192909138
+    second: Monster_Walk_26
+  - first:
+      213: -1632965783337951494
+    second: Monster_Walk_27
+  - first:
+      213: -6884816212448210632
+    second: Monster_Walk_28
+  - first:
+      213: -1906320325561303486
+    second: Monster_Walk_29
+  - first:
+      213: 7152229064175741952
+    second: Monster_Walk_30
+  - first:
+      213: 73440318180695400
+    second: Monster_Walk_31
+  - first:
+      213: -1695370799685841088
+    second: Monster_Walk_32
+  - first:
+      213: 6903853918940758831
+    second: Monster_Walk_33
+  - first:
+      213: 3804047092825086025
+    second: Monster_Walk_34
+  - first:
+      213: -1968293241908223940
+    second: Monster_Walk_35
+  - first:
+      213: -6537356107026348379
+    second: Monster_Walk_36
+  - first:
+      213: -2922960792444419064
+    second: Monster_Walk_37
+  - first:
+      213: -8272383186905311124
+    second: Monster_Walk_38
+  - first:
+      213: -890407858260537776
+    second: Monster_Walk_39
+  - first:
+      213: -5136964957440188084
+    second: Monster_Walk_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ea51883e47a01d0800000000000000
+      internalID: -3383763649425985922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a595a787e40a846a0800000000000000
+      internalID: -6464741006201169574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e21a9503fa6a09d0800000000000000
+      internalID: -2807313825708502296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 0
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa02cf7338f87390800000000000000
+      internalID: -7820227852858422533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 0
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a6731d850289e10800000000000000
+      internalID: 2204547583437138552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c87fb1aa573fa20800000000000000
+      internalID: 3094946742407761039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 0
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dad8f69dc76ba40800000000000000
+      internalID: 5383627677889310006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 0
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f19a82dcc62a3f0800000000000000
+      internalID: -891030147859669196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 0
+        width: 229
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5043fdb24fb8889c0800000000000000
+      internalID: -3924733194429058043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 934e9351678ef5a44b3e8da873668a16
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":1.0},"gridSpriteSize":{"x":253.0,"y":256.0},"gridSpriteOffset":{"x":22.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Monster_Walk_0: -3383763649425985922
+      Monster_Walk_1: -6464741006201169574
+      Monster_Walk_2: -2807313825708502296
+      Monster_Walk_3: -7820227852858422533
+      Monster_Walk_4: 2204547583437138552
+      Monster_Walk_5: 3094946742407761039
+      Monster_Walk_6: 5383627677889310006
+      Monster_Walk_7: -891030147859669196
+      Monster_Walk_8: -3924733194429058043
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
