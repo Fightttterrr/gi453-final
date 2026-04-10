@@ -89,7 +89,10 @@ public class GameManager : MonoBehaviour
     private void HandleDeath()
     {
         Debug.Log("GameManager: Player Died.");
-        
+
+        // ส่ง Analytics
+        FindFirstObjectByType<LevelCompletionRate>()?.SendLevelSummary();
+
         if (deathSequenceController != null)
         {
             deathSequenceController.StartDeathSequence();

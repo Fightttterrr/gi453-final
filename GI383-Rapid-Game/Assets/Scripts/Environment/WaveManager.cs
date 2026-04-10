@@ -6,6 +6,8 @@ public class WaveManager : MonoBehaviour
     public EnemySpawner spawner;
     public WaveUI waveUI;
 
+    public LevelCompletionRate levelAnalytics; // ANALYTICS
+
     [Header("Wave Configuration (ตั้งค่าพื้นฐาน)")]
     [Tooltip("ระยะเวลาพักระหว่าง Wave (วินาที)")]
     public float timeBetweenWaves = 5f;
@@ -46,7 +48,11 @@ public class WaveManager : MonoBehaviour
         {
             waveUI = FindFirstObjectByType<WaveUI>();
         }
-        
+
+        // หา LevelAnalytics อัตโนมัติ
+        if (levelAnalytics == null)
+            levelAnalytics = FindFirstObjectByType<LevelCompletionRate>(); // ANALYTICS
+
         StartCoroutine(StartNextWave());
     }
 
@@ -56,6 +62,8 @@ public class WaveManager : MonoBehaviour
     {
         currentWave++;
         Debug.Log($"--- Starting Wave {currentWave} ---");
+
+        levelAnalytics?.OnLevelStart(); // ANALYTICS
 
         if (waveUI != null)
         {
@@ -103,6 +111,8 @@ public class WaveManager : MonoBehaviour
             if (enemyCount == 0 && !isSpawning)
             {
                 waveCleared = true;
+
+                levelAnalytics?.OnLevelComplete(); // ANALYTICS
             }
 
             // Update UI

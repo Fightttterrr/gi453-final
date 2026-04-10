@@ -12,7 +12,7 @@ public class SkillUsageAnalytics : MonoBehaviour
         {
             await UnityServices.InitializeAsync();
             AnalyticsService.Instance.StartDataCollection();
-            Debug.Log("Analytics Ready");
+            Debug.Log("Analytics Usaged Skills Ready");
         }
         catch (System.Exception e)
         {
