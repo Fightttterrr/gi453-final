@@ -1074,6 +1074,7 @@ GameObject:
   - component: {fileID: 1757024473}
   - component: {fileID: 1757024472}
   - component: {fileID: 1757024474}
+  - component: {fileID: 1757024475}
   m_Layer: 0
   m_Name: AnalyticsManager
   m_TagString: Untagged
@@ -1121,6 +1122,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4679b00332e49f44ba3a75ca556a1fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelCompletionRate
+--- !u!114 &1757024475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757024471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018d944f64aa68c4cb476c3118911a43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyKillRateAnalytics
 --- !u!1 &1977404007 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4774834949963562390, guid: 16d554ad25f7729419fb17a182f2af33, type: 3}

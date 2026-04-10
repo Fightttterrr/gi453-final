@@ -387,6 +387,8 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
+        FindFirstObjectByType<EnemyKillRateAnalytics>()?.OnEnemyKilled(); //เก็บข้อมูล
+
         if (isAttackingFlag) StopAllCoroutines();
         
         // Death VFX

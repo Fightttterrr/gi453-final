@@ -1,10 +1,25 @@
 ﻿using Unity.Services.Analytics;
+using Unity.Services.Core;
 using UnityEngine;
 
 public class LevelCompletionRate : MonoBehaviour
 {
     private int levelStartCount = 0;
     private int levelCompleteCount = 0;
+
+    async void Start()
+    {
+        try
+        {
+            await UnityServices.InitializeAsync();
+            AnalyticsService.Instance.StartDataCollection();
+            Debug.Log("Analytics LevelCompletionRate Ready");
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError("Analytics init failed: " + e.Message);
+        }
+    }
 
     // เริ่มด่าน
     public void OnLevelStart()
