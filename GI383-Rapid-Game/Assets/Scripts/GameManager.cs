@@ -91,6 +91,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("GameManager: Player Died.");
 
         // ส่ง Analytics
+        FindFirstObjectByType<EnemyKillRateAnalytics>()?.SendEnemySummary();
         FindFirstObjectByType<LevelCompletionRate>()?.SendLevelSummary();
 
         if (deathSequenceController != null)
